@@ -1,5 +1,5 @@
 #pragma once
 
 // entries here will be set by the configure_file() option
-#cmakedefine APP_VERSION "@MainProject_VERSION@"
-#cmakedefine APP_PLATFORM "@MP_PLATFORM@"
+#cmakedefine MP_VERSION "@CMAKE_PROJECT_VERSION@"
+#cmakedefine MP_PLATFORM "@MP_PLATFORM@"

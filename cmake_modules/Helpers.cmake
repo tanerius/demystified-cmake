@@ -11,7 +11,7 @@ macro(set_platform)
         set(MP_PLATFORM "Linux")
     else()
         # Dont know
-        set(FARSCAPE_PLATFORM "NA")
+        set(MP_PLATFORM "NA")
     endif()
     
 endmacro()

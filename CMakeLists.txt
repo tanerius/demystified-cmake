@@ -33,9 +33,6 @@ set(MAIN_APP_SRC_DIR "${PROJECT_SOURCE_DIR}/MainProject")
 # Now we will call set_platform Macro defined in cmake_modules/Helpers.cmake that basically sets some variables to use globally
 set_platform()
 
-# Get the config.h.in file and ubstiture the file to Versions.h with correct settings set in set_platform()
-configure_file(${MAIN_APP_SRC_DIR}/configure/config.h.in ${MAIN_APP_SRC_DIR}/config.h @ONLY)
-
 # The following is an option which can be set as a cmake command line definition by adding -DMP_OPTION_VAL=On
 OPTION(MP_OPTION_VAL "This is an option value Set to on" On)
 

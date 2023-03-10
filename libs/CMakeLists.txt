@@ -5,3 +5,6 @@ add_subdirectory(dynadder)
 
 # This is a static library which simply print out a message
 add_subdirectory(staticprinter) 
+
+# this is a header only library which doesnt produce any compiled lib but can be included in any target as a library
+add_subdirectory(headeronly)
